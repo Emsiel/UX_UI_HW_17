@@ -1,0 +1,81 @@
+body {
+    background-color: #F0E4E0;
+}
+
+header {
+  font-family: Scope One;
+  display:inline;
+  height: 40px;
+  background-color: #F0E4E0;
+  vertical-align: top;
+  padding: 15px;
+  display: inline-block;
+  color: #1359ee;
+  width: 73%;
+  padding: 1%;
+  margin-left: auto;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: Chase Zen Paris;
+  font-size: 70px;
+  color: #1359ee;
+  text-align: center;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  font-size: 22px;
+  font-family: Source Sans Pro;
+  color: #1359ee;
+
+}
+
+p1 {
+  font-size: 22px;
+  font-family: Scope One;
+  color: #1359ee;
+}
+
+button {
+  color: #1359ee;
+  text-align: center;
+  box-align: center;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+
+}
+
+h2 {
+  font-family: chase zen paris;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: Scope One;
+height: 30px;
+}
+
+footer {
+  font-family: Scope One;
+  display:inline;
+  height: 30px;
+  background-color: #F0E4E0;
+  vertical-align: top;
+  padding: 15px;
+  display: inline-block;
+  color: #1359ee;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+}
