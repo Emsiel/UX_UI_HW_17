@@ -3,79 +3,100 @@ body {
 }
 
 header {
+  display: flex;
   font-family: Scope One;
-  display:inline;
   height: 40px;
   background-color: #F0E4E0;
-  vertical-align: top;
   padding: 15px;
-  display: inline-block;
   color: #1359ee;
-  width: 73%;
-  padding: 1%;
-  margin-left: auto;
-  text-align: center;
-
+  align-items: stretch;
+  justify-content: space-between;
 }
 
-h1 {
-  font-family: Chase Zen Paris;
-  font-size: 70px;
-  color: #1359ee;
-  text-align: center;
-
+  h1 {
+    display: flex;
+    font-family: Chase Zen Paris;
+    font-size: 70px;
+    color: #1359ee;
+justify-content: center;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+section {
+  display: flex;
+  justify-content: flex-start;
+
+  p {
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    color: #1359ee;
+  }
+  
+  p1 {
+    font-size: 22px;
+    font-family: Scope One;
+    color: #1359ee;
+    padding: 1%;
+  }
+ 
+  p2 {
+    font-size: 30px;
+    font-family: Scope One;
+    color: #1359ee; 
+    padding: 1%;
+    text-align: center;
+  }
 }
 
-p {
-  font-size: 22px;
-  font-family: Source Sans Pro;
-  color: #1359ee;
-
-}
-
-p1 {
-  font-size: 22px;
-  font-family: Scope One;
-  color: #1359ee;
+.EBL {
+display: flex;
+justify-content: flex-end;
+padding: 2%;
+margin: 10px;
 }
 
 button {
-  color: #1359ee;
-  text-align: center;
-  box-align: center;
-  top: 50%;
-  left: 50%;
-  right: 50%;
+  display: flex;
+  color: #FFC457;
+  background-color: #F054F3;
+  justify-content:  center;
+  align-items: center;
+  padding: 1%
 
-}
-
-h2 {
-  font-family: chase zen paris;
-  font-size: 40px;
-}
-
-h3 {
-  font-family: Scope One;
-height: 30px;
 }
 
 footer {
-  font-family: Scope One;
-  display:inline;
-  height: 30px;
-  background-color: #F0E4E0;
-  vertical-align: top;
-  padding: 15px;
-  display: inline-block;
+  .footernav {
+    display: flex;
+    height: 348x;
+    background-color: #F0E4E0;
+  }
+
+h2 {
+  display: flex;
+  font-family: chase zen paris;
+  font-size: 40px;
+  justify-content: center;      
   color: #1359ee;
-  margin-left: 35%;
-  margin-right: 35%;
-  text-align: center;
+ }
+
+h3 {
+  display: flex;
+  font-family: Scope One;
+  height: 30px;
+  justify-content: center;
+  color: #1359ee;
+ }
+
+    h4 {
+    display: flex;
+    font-family: Scope One;
+    height: 30px;
+    justify-content: center;
+    color: #1359ee;
+ }
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
